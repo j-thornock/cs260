@@ -1,0 +1,55 @@
+body{
+  padding: 10px;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  background-color: lightblue;;
+  color: grey;
+  padding: 1em;
+  font-size: 30px;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+p, li{
+  font-size: 15px;
+}
+nav{
+  background-color: lightblue;;
+  color: grey;  /*height: 40px;*/
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+  height: 40px;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+img{
+  width: 75%
+  /*padding: 5px;*/
+}
+section {
+ display: flex;
+}
+
+aside {
+ flex: 1
+ margin: 5px;
+ padding: 5px;
+}
+
+article {
+ flex: 4
+ padding: 5px;
+ padding: 5px;
+}
+.aboutme{
+  padding-left: 1em;
+
+}
